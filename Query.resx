@@ -1,0 +1,770 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlmacenaDocumentoEnvio" xml:space="preserve">
+    <value>Insert into cdifac.tfac042 (gcicod,ftifac,ffsine, ffaine, ffmine, ffdine, ffsfie, ffafie, ffmfie, ffdfie, fhoenv, ffsopr, ffaopr, ffmopr, ffdopr, fusopr, fnuenv, gnufac)
+values ('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}','{10}','{11}','{12}','{13}','{14}','{15}',{16},'{17}')</value>
+    <comment>Almacena el lote o documento enviado a GEFACE</comment>
+  </data>
+  <data name="AlmacenaNoAceptadas" xml:space="preserve">
+    <value>Insert into cdifac.tfac043(gcicod,ftifac,gnufac,ffsopr,ffaopr,ffmopr,ffdopr,fhoopr,ftxerr,fstenv) values ('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}')</value>
+    <comment>Almacena todas aquellas facturas que no se almacenaron en la BD de IFACERE</comment>
+  </data>
+  <data name="CajaFactura" xml:space="preserve">
+    <value>Select fsrfac as caja from intfac.ffac007 where gcicod = '{0}' and fcoprt='{1}'</value>
+    <comment>Obtiene la Caja asociada a la Factura</comment>
+  </data>
+  <data name="DatosSAT" xml:space="preserve">
+    <value>Select distinct(fcisat) as empresa from cdifac.tfac046 where gcicod='{0}'</value>
+    <comment>Obtiene los datos de SAT</comment>
+  </data>
+  <data name="DetalleAutosNuevos" xml:space="preserve">
+    <value>select '0' as CANTIDAD, '' AS METRICA, '0' AS PRECIOUNITARIO, '' AS DETALLE1, det.vdetfav as DESCRIPCION, det.vvaldet as VALOR from vhl.tvhl168 det where det.vnufav='{0}' AND EXIEIM='{1}'</value>
+    <comment>Obtiene el detalle de autos nuevos</comment>
+  </data>
+  <data name="DetalleAutosUsados" xml:space="preserve">
+    <value>select '0' as CANTIDAD, '' AS METRICA, '0' AS PRECIOUNITARIO, '' AS DETALLE1, det.vdetfav as DESCRIPCION, det.vvaldet as VALOR 
+from cdivus.tvUS020 det where concat(trim(substr(trim(det.vnufav),1,1)),trim(substr(trim(det.vnufav),2))) ='{0}'</value>
+    <comment>Obtiene el dedatalle de los autos usados</comment>
+  </data>
+  <data name="DetalleOficina" xml:space="preserve">
+    <value>select '0' as CANTIDAD, '' as METRICA, ofi.vdetpl as DESCRIPCION, '0' AS PRECIOUNITARIO, ofi.vvdepl as VALOR, '' as DETALLE1 from vhl.vhldfn ofi WHERE VDOFYN='{0}' AND VCOEIM='{1}'</value>
+    <comment>Obtiene en detalle para facturas de oficina, notas de credito para oficina, vehiculos nuevos y usados</comment>
+  </data>
+  <data name="DetalleRepuestos_FAC" xml:space="preserve">
+    <value>select 
+det.gcamov as CANTIDAD
+, art.gcaumv as METRICA
+, art.gnmart as DESCRIPCION
+,round((det.gpvfa$/det.gcamov),2) as PRECIOUNITARIO
+,round(decimal(det.gpvfa$,9,2),2) as VALOR
+, art.ggpcod || ' ' || art.gcoart as DETALLE1
+from pgmdatos.ngen051CS det left join intgen.fgen016 art 
+on det.gcicod=art.gcicod and det.icotip=art.icotip and det.gcoart=art.gcoart
+where det.gcicod='{0}' {1} and det.gnufac='{2}'</value>
+    <comment>Obtiene el detalle de Factura de Repuestos. gpvfac -&gt; gpvfa$ ya no se suma el 1.12. se quito icotip &lt;&gt; ''</comment>
+  </data>
+  <data name="DetalleRepuestos_NR" xml:space="preserve">
+    <value>select 
+det.icamov as CANTIDAD
+, art.gcaumv as METRICA
+, art.gnmart as DESCRIPCION
+,round(decimal(det.ipvmov)/decimal(det.icamov)*1.12,2) as PRECIOUNITARIO
+,round(decimal(det.ipvmov,9,2)*1.12,2) as VALOR
+, art.ggpcod || ' ' || art.gcoart as DETALLE1
+from intinv.finv003 det left join intgen.fgen016 art 
+on det.gcicod=art.gcicod and det.icotip=art.icotip and det.gcoart=art.gcoart
+where det.gcicod='{0}' {1} and det.itimov='{2}' and det.inumov='{3}'</value>
+    <comment>Obtiene el detalle de Notas de Credito de Repuestos. se quito icotip &lt;&gt; ''</comment>
+  </data>
+  <data name="DetalleRepuestos_TR" xml:space="preserve">
+    <value>select 
+'1.00' as CANTIDAD
+, '' as METRICA
+, 'Repuestos Utilizados en Taller' as DESCRIPCION
+,'0.00' as PRECIOUNITARIO
+, sum(det.ipvmov) as VALOR
+, '' as DETALLE1
+from intinv.finv003 det left join intgen.fgen016 art 
+on det.gcicod=art.gcicod and det.icotip=art.icotip and det.gcoart=art.gcoart
+where det.gcicod='{0}' {1} and det.itimov='{2}' and det.inumov='{3}'</value>
+    <comment>Obtiene el detalle de Cobros cuando Factura es TR. Se quito icotip &lt;&gt; ''</comment>
+  </data>
+  <data name="DetalleRepuestos_TR_Opt" xml:space="preserve">
+    <value>select 
+'1.00' as CANTIDAD
+, '' as METRICA
+, 'Repuestos Utilizados en Taller' as DESCRIPCION
+,'0.00' as PRECIOUNITARIO
+, round(sum(decimal(det.gpvfa$,9,2)),2) as VALOR
+, '' as DETALLE1
+from pgmdatos.ngen051CS det 
+where det.gcicod='{0}' {1} and det.gnufac='{2}'</value>
+    <comment>Obtiene el detalle de Cobros cuando Factura es TR Optativo, más rapido. se quito icotip &lt;&gt; ''</comment>
+  </data>
+  <data name="EncabezadoAutosNuevos" xml:space="preserve">
+    <value>select 
+substr(aut.vnufav,length(trim(cdf.vsrfac))+1,length(trim(aut.vnufav))) as NOFACTURA
+, aut.vnufav as GNUFAC
+, cdf.vsrfac as SERIE
+, aut.vclnom as NOMBRECONTRIBUYENTE
+, case aut.v@ste2 when '' then 'GTQ'
+                  WHEN 'DO'THEN 'USD'
+  END as MONEDA
+, (trim(COALESCE(aut.vcldir,''))||trim(COALESCE(aut.vclcol,''))||trim(COALESCE(aut.vcledi,''))) as DIRECCIONCONTRIBUYENTE
+, aut.vfdfav||'/'||aut.vfmfav||'/'||aut.vfafav as FECHAEMISION
+, decimal(aut.vvaiva,9,2) as IVA
+, '0.00' AS EXENTO
+, case aut.vtidoc when '3' then COALESCE(fra.vvabru,decimal((decimal(aut.vvabru,9,2) + decimal(COALESCE(descuento.vvaldet,'0'),9,2)),9,2))
+	else decimal((decimal(aut.vvabru,9,2) + decimal(COALESCE(descuento.vvaldet,'0'),9,2)),9,2) 
+	end AS VALORNETO
+, case aut.vtidoc when '3' then COALESCE(fra.vvanet ,decimal(aut.vvanet,9,2))
+	else decimal(aut.vvanet,9,2)
+	end as TOTAL
+, COALESCE(descuento.vvaldet,'0') AS DESCUENTO
+, aut.vclnit as NITCONTRIBUYENTE
+, usr.vnofcr as USUARIO
+, aut2.fcisat AS EMPRESA
+, aut2.fessat AS GSUCOD
+, aut2.fcocaj AS CAJA, aut.vcomar
+from vhl.vhlfc2 aut INNER JOIN vhl.vhlcdf cdf
+on cdf.vcoeim=aut.vcocio and cdf.vcogrm=aut.vcogrm left join vhl.vhlfcr usr
+on usr.vcofcr=aut.vcofcr left join vhl.tvhl168 descuento 
+on descuento.vnufav = aut.vnufav and descuento.vdetfav like '%DESCUENTO%' inner join intgen.fgen105 poriva
+on poriva.gcicod=aut.vcocia LEFT join cdifac.tfac048 aut2
+on aut2.vcocio=aut.vcocio and aut2.vcomar=aut.vcomar left join vhl.vhlfra fra
+on fra.vnufav=aut.vnufav
+where aut.vtidoc&lt;&gt;'9'
+and aut.vnufav='{0}' and aut.vstfc1='{1}' AND AUT.VCOCIO='{2}'</value>
+    <comment>Obtiene el encabezado de autos nuevos</comment>
+  </data>
+  <data name="EncabezadoAutosUsados" xml:space="preserve">
+    <value>select 
+substr(aut.vnufav,2,length(trim(aut.vnufav))) as NOFACTURA
+, substr(trim(aut.vnufav),0,2) as SERIE
+, aut.vclnom as NOMBRECONTRIBUYENTE
+, 'GTQ' as MONEDA
+, (COALESCE(aut.VCLDIR,'')||COALESCE(aut.VCLCOL,'')||COALESCE(aut.v@dciu,'')) as DIRECCIONCONTRIBUYENTE
+, aut.vfdfav||'/'||aut.vfmfav||'/'||aut.vfafav as FECHAEMISION
+, aut.vvaiva as IVA
+, '0.00' AS EXENTO
+, aut.vvanet AS VALORNETO
+, aut.vvabru as TOTAL
+, '0' AS DESCUENTO
+, aut.vclnit as NITCONTRIBUYENTE
+, usr.vcofcr as USUARIO, '' as VCOMAR
+from cdivus.vusfc2 aut left join vhl.vhlfcr usr
+on usr.vcofcr=aut.vcofcr
+where aut.vtidoc&lt;&gt;'8'
+and aut.vnufav='{0}' and aut.vstfc1='{1}'
+and aut.vtiopr='1'</value>
+    <comment>Obtiene el encabezado de autos usados</comment>
+  </data>
+  <data name="EncabezadoOficina" xml:space="preserve">
+    <value>select 
+ ofi.vdofyn
+, substr(ofi.vdofyn,4,length(trim(ofi.vdofyn))) as NOFACTURA3
+, substr(ofi.vdofyn,3,length(trim(ofi.vdofyn))) as NOFACTURA2
+, substr(ofi.vdofyn,2,length(trim(ofi.vdofyn))) as NOFACTURA
+, substr(trim(ofi.vdofyn),0,4) as SERIE3
+, substr(trim(ofi.vdofyn),0,2) as SERIE
+, substr(trim(ofi.vdofyn),0,3) as SERIE2
+, 'GTQ' as MONEDA
+, ofi.vclnom as NOMBRECONTRIBUYENTE
+, (COALESCE(ofi.vcldi1,'')||COALESCE(ofi.vcldi2,'')||COALESCE(ofi.vcldi3,'')) as DIRECCIONCONTRIBUYENTE
+, ofi.vfdfyn||'/'||ofi.vfmfyn||'/'||ofi.vfafyn as FECHAEMISION
+, case when ofi.veifyn='' then ofi.vvifyn 
+	else '0.00'
+	end as IVA
+, case when ofi.veifyn='' then '0.00' 
+		else ofi.vvifyn
+end as EXENTO
+, OFI.VVTFYN AS TOTAL
+, case when ofi.veifyn='' then OFI.VVNFYN
+ 	else OFI.VVTFYN
+end AS VALORNETO
+, '0' AS DESCUENTO
+, OFI.VCLNIT AS NITCONTRIBUYENTE
+, OFI.VUSFYN AS USUARIO
+, ofi.vtifyn
+, OFI.VPLFYN, ofi.vdoref
+, ofi.vcoeim, ofi.vcogrm, vcomar
+, OFI.VEIFYN
+from vhl.vhlfyn ofi 
+where ofi.vdofyn='{0}'  and ofi.vstfyn='{1}' and ofi.vcoeim='{2}'</value>
+    <comment>Obtiene en cabezado para facturas de oficina, notas de credito para oficina, vehiculos nuevos y usados</comment>
+  </data>
+  <data name="EncabezadoRepuestos" xml:space="preserve">
+    <value>select 
+enc.gnufac AS GNUFAC,
+enc.icotip
+, enc.gcocaj as CAJA
+, enc.gclnom as NOMBRECONTRIBUYENTE
+, (enc.gcldir || enc.gclcol || enc.gcledi) as DIRECCIONCONTRIBUYENTE
+, case enc.gfsfac 
+	when '0' then enc.gfdfac||'-'||enc.gfmfac||'-19'||enc.gfafac
+  	when '1' then enc.gfdfac||'-'||enc.gfmfac||'-20'||enc.gfafac
+  end as FECHAEMISION
+, enc.givfac AS IVA
+, enc.gvnfac as VALORNETO
+, enc.gvtfac as TOTAL
+,  case enc.gdcfac 
+	when '0' then '0'
+	else round((decimal(enc.gdcfac,9,2)+(decimal(enc.givfac,9,2)-decimal(poriva.gpgivv,9,2)/100*(decimal(enc.gvnfac,9,2) - decimal(enc.gdcfac,9,2)))),2)  
+	end as DESCUENTO
+, enc.gclnit as NITCONTRIBUYENTE
+, cajero.ocjnom as USUARIO
+, enc.gflexn
+, exc.oqumon as EXCENTO
+, exc.ocobct
+, enc.gnuref as NOFACTURA
+, ref.gfdfac||'-'||ref.gfmfac||'-'||ref.gfafac as FECHAFACTURA
+, enc.gtifac
+, enc.gcicod
+, enc.gfrimp
+, enc.gsucod
+from libusr.gen038lq enc left join intfac.fcaj014 cajero 
+on enc.gcicod=cajero.gcicod and enc.gcocaj=cajero.gcocaj left join (select exc.gcicod, exc.gnufac, exc.ocobct, sum(exc.oqumon) oqumon
+										 from intfac.fcaj012 exc																		 
+								           group by exc.gcicod, exc.gnufac, exc.ocobct) exc 
+on enc.gcicod=exc.gcicod  and enc.gnufac=exc.gnufac left join libusr.gen038lq ref 
+on ref.gnufac=enc.gnuref and ref.gcicod=enc.gcicod and ref.icotip=enc.icotip and ref.gflanu='' and ref.gfancr='1' inner join intgen.fgen105 poriva 
+on poriva.gcicod=enc.gcicod where enc.gfancr='{0}' and enc.gcicod='{1}' and enc.gflanu='{2}' {3} and enc.gnufac='{4}'</value>
+    <comment>Obtiene el encabezado de Repuestos. Se quito icotip &lt;&gt; ''</comment>
+  </data>
+  <data name="EncabezadoRep_nuevo" xml:space="preserve">
+    <value>select 
+enc.gnufac AS GNUFAC,
+enc.icotip
+, enc.gcocaj as CAJA
+, enc.gclnom as NOMBRECONTRIBUYENTE
+, (enc.gcldir || enc.gclcol || enc.gcledi) as DIRECCIONCONTRIBUYENTE
+, case enc.gfsfac 
+	when '0' then enc.gfdfac||'-'||enc.gfmfac||'-19'||enc.gfafac
+  	when '1' then enc.gfdfac||'-'||enc.gfmfac||'-20'||enc.gfafac
+  end as FECHAEMISION
+, enc.givfac AS IVA
+, enc.gvnfac as VALORNETO
+, enc.gvtfac as TOTAL
+,  '0.00' as DESCUENTO
+, enc.gclnit as NITCONTRIBUYENTE
+, cajero.ocjnom as USUARIO
+, enc.gflexn
+, exc.oqumon as EXCENTO
+, exc.ocobct
+, enc.gnuref as NOFACTURA
+, ref.gfdfac||'-'||ref.gfmfac||'-'||ref.gfafac as FECHAFACTURA
+, enc.gtifac
+, enc.gcicod
+, enc.gfrimp
+, enc.gsucod, enc.gflanu
+from libusr.gen038lq enc left join intfac.fcaj014 cajero 
+on enc.gcicod=cajero.gcicod and enc.gcocaj=cajero.gcocaj left join (select exc.gcicod, exc.gnufac, exc.ocobct, sum(exc.oqumon) oqumon
+										 from intfac.fcaj012 exc							where exc.ocobct='EXE'											 
+								           group by exc.gcicod, exc.gnufac, exc.ocobct) exc 
+on enc.gcicod=exc.gcicod  and enc.gnufac=exc.gnufac left join libusr.gen038lq ref 
+on ref.gnufac=enc.gnuref and ref.gcicod=enc.gcicod and ref.icotip=enc.icotip and ref.gflanu='' and ref.gfancr='1' inner join intgen.fgen105 poriva 
+on poriva.gcicod=enc.gcicod where enc.gfancr='{0}' and enc.gcicod='{1}' and enc.gflanu='{2}' {3} and enc.gnufac='{4}'</value>
+    <comment>Nueva Definicion para Encabezado Repuestos Sin calculo Desc y usando LGEN038D/libusr.gen038lq. se quito icotip &lt;&gt; ''</comment>
+  </data>
+  <data name="IncrementaLote" xml:space="preserve">
+    <value>Update cdifac.tfac045 set fnuenv = '{0}' where gcicod = '{1}' and ftifac = '{2}'</value>
+    <comment>Actualiza el numero de Lote Enviado</comment>
+  </data>
+  <data name="LoteDocumentos" xml:space="preserve">
+    <value>select trim(gnufac) as no_doc, gfldtq as procesada, gtifac as tipo, gflanu as estado from cdifac.tfac051
+where gfancr='{0}' and gcicod='{1}' {2} and gtifac{3}'TS'
+and (gfdfac between '{4}' and '{5}')
+and (gfmfac between '{6}' and '{7}')
+and (gfafac between '{8}' and '{9}') order by no_doc asc</value>
+    <comment>Obtiene todos los documentos en Lote por rango de Fechas. se quito icotip &lt;&gt; ''</comment>
+  </data>
+  <data name="NumeroFacturaSerie" xml:space="preserve">
+    <value>select 
+substr(ofi.vdofyn,length(trim(cfn.vsefyn))+1,length(trim(ofi.vdofyn))) as NOFACTURA, cfn.vsefyn as IDSERIE, ofi.vfdfyn||'/'||ofi.vfmfyn||'/'||ofi.vfafyn as FECHAFACTURA
+from vhl.vhlfyn ofi inner join vhl.vhlcfn cfn
+on cfn.vcoeim=ofi.vcoeim and cfn.vtifyn=ofi.vtifyn and cfn.vcogrm=ofi.vcogrm
+where ofi.vdofyn='{0}' and ofi.vcoeim={1}
+union
+select 
+substr(aut.vnufav,length(trim(cdf.vsrfac))+1,length(trim(aut.vnufav))) as NOFACTURA, cdf.vsrfac as IDSERIE, aut.vfdfav||'/'||aut.vfmfav||'/'||aut.vfafav as FECHAFACTURA
+from vhl.vhlfc2 aut  join vhl.vhlcdf cdf
+on cdf.vcoeim=aut.vcocio and cdf.vcogrm=aut.vcogrm 
+where aut.vtidoc&lt;&gt;'9'
+and aut.vnufav='{0}' and aut.vcocio={1}
+union
+select 
+substr(aut.vnufav,2,length(trim(aut.vnufav))) as NOFACTURA, substr(aut.vnufav,0,2) as IDSERIE, aut.vfdfav||'/'||aut.vfmfav||'/'||aut.vfafav as FECHAFACTURA
+from cdivus.vusfc2 aut 
+where aut.vtidoc&lt;&gt;'8'
+and aut.vnufav='{0}' and aut.v@ste2 in ({1})
+union
+select 
+frank.gnufac AS NOFACTURA, '' AS IDSERIE, (frank.gfdfac||'/'||frank.gfmfac||'/'||frank.gfafac) AS FECHAFACTURA
+from libusr.gen038lq frank
+where frank.gfancr='1' and frank.gnufac = '{0}' and frank.gcicod={1}</value>
+    <comment>Obtiene el numero de factura, serie fecha</comment>
+  </data>
+  <data name="NumeroLote" xml:space="preserve">
+    <value>Select fnuenv as numlot from cdifac.tfac045 where gcicod = '{0}' and ftifac = '{1}'</value>
+    <comment>Devuelve el Ultimo Numero de Lote a Enviar</comment>
+  </data>
+  <data name="ObtieneDescuentoSubTotal" xml:space="preserve">
+    <value>Select (sum(gpvfa$)-sum(ipvmod)) as descuento, sum(gpvfa$) as subtotal from pgmdatos.ngen051CS where gcicod='{0}' {1} and gnufac='{2}'</value>
+    <comment>Query Redefinada para Descuento y SubTotal. icotip &lt;&gt; ''</comment>
+  </data>
+  <data name="OpcionalAutosNuevos" xml:space="preserve">
+    <value>select 
+aut.vcoclf as OPCIONAL1
+, aut.vcodes as OPCIONAL2
+, '' as OPCIONAL3
+, COALESCE(fpor.vcofcr,'') as OPCIONAL4
+, COALESCE(vpor.vncven,'') as OPCIONAL5
+, '' as OPCIONAL6
+, '' as OPCIONAL7
+, '' as OPCIONAL8
+, decimal((decimal(aut.vvanet,9,2)+decimal(COALESCE(descuento.vvaldet,'0'),9,2)),9,2) as OPCIONAL9
+, '' as TELEFONO
+from vhl.vhlfc2 aut left join vhl.vhlfcr fpor
+on fpor.VCOFCR=aut.vcofcr left join vhl.vhlven vpor
+on vpor.vcoven=aut.vcoven left join vhl.tvhl168 descuento 
+on descuento.vnufav = aut.vnufav and descuento.vdetfav like '%DESCUENTO%' inner join intgen.fgen105 poriva
+on poriva.gcicod=aut.vcocio
+where aut.vtidoc&lt;&gt;'9'
+and aut.vnufav='{0}' and aut.vstfc1='{1}' and aut.vcocio='{2}'</value>
+    <comment>Obtiene </comment>
+  </data>
+  <data name="OpcionalAutosUsados" xml:space="preserve">
+    <value>select 
+aut.vcoclf as OPCIONAL1
+, '' as OPCIONAL2
+, coalesce(fin.vsigla,case aut.vcocre when '' then 'CONTADO' when 'R' then 'CREDITO' END) as OPCIONAL3
+, COALESCE(fpor.vcofcr,'') as OPCIONAL4
+, case aut.vtidoc when '9' then '' else COALESCE(vpor.vncven,'') end as OPCIONAL5
+, '' as OPCIONAL6
+, '' as OPCIONAL7
+, '' as OPCIONAL8
+, '' as OPCIONAL9
+, aut.vcocre
+, aut.vtidoc
+from cdivus.vusfc2 aut left join vhl.vhlfcr fpor
+on fpor.VCOFCR=aut.vcofcr left join vhl.vhlven vpor
+on vpor.vcoven=aut.vcoven left join vhl.vhlfin fin
+on fin.vcofin=aut.vcofin
+where aut.vtidoc&lt;&gt;'8'
+and aut.vnufav='{0}' and aut.vstfc1='{1}'</value>
+    <comment>Obtiene opcional de autos usados</comment>
+  </data>
+  <data name="OpcionalOficina" xml:space="preserve">
+    <value>select 
+ofi.vcocli as OPCIONAL1
+, '' as OPCIONAL2
+, 'CREDITO' as OPCIONAL3
+, ofi.vusfyn as OPCIONAL4
+, '' as OPCIONAL5
+, '' as OPCIONAL6
+, '' as OPCIONAL7
+, '' as OPCIONAL8
+, '' as OPCIONAL9
+, '' as TELEFONO
+from vhl.vhlfyn ofi
+where ofi.vdofyn='{0}' and ofi.vtifyn='{1}' and ofi.vstfyn='{2}'</value>
+    <comment>Obtiene en opcional para facturas de oficina, notas de credito para oficina, vehiculos nuevos y usados</comment>
+  </data>
+  <data name="OpcionalRepuestos" xml:space="preserve">
+    <value>select 
+ enc.gclcod as OPCIONAL1
+, '' as OPCIONAL2
+, enc.gtipag as OPCIONAL3
+, caj.ocjnom as OPCIONAL4
+, COALESCE(ven.gnmven,'') as OPCIONAL5
+, '' as OPCIONAL6
+, ord.rornum as OPCIONAL7
+, '' as OPCIONAL8
+, decimal((decimal(enc.gvnfac,9,2)+decimal(enc.givfac,9,2)+decimal((decimal(enc.gdcfac,9,2)+(decimal(enc.givfac,9,2)-decimal(poriva.gpgivv,9,2)/100*(decimal(enc.gvnfac,9,2) - decimal(enc.gdcfac,9,2)))),9,2)),9,2) as OPCIONAL9
+from libusr.gen038lq enc left join intfac.fcaj014 caj
+on enc.gcicod=caj.gcicod and enc.gcocaj=caj.gcocaj left join intgen.fgen029 ven
+on enc.gcicod=ven.gcicod and enc.gcoven=ven.gcoven left join intrep.frep110 ord
+on enc.gcicod=ord.gcicod and enc.gnufac=ord.rorfac inner join intgen.fgen105 poriva
+on poriva.gcicod=enc.gcicod
+where enc.gfancr='{0}' and enc.gcicod='{1}' and  enc.gflanu='{2}' {3} and enc.gnufac='{4}'</value>
+    <comment>Obtiene los datos opconales de Repuestos. icotip &lt;&gt; ''</comment>
+  </data>
+  <data name="OpcionalRep_Nuevo" xml:space="preserve">
+    <value>select 
+ enc.gclcod as OPCIONAL1
+, '' as OPCIONAL2
+, enc.gtipag as OPCIONAL3
+, caj.ocjnom as OPCIONAL4
+, ven.gcoven as OPCIONAL5
+, '' as OPCIONAL6
+, ord.rornum as OPCIONAL7
+, '' as OPCIONAL8
+, '0.00' as OPCIONAL9
+from libusr.gen038lq enc left join intfac.fcaj014 caj
+on enc.gcicod=caj.gcicod and enc.gcocaj=caj.gcocaj left join intgen.fgen029 ven
+on enc.gcicod=ven.gcicod and enc.gcoven=ven.gcoven left join intrep.frep110 ord on enc.gcicod=ord.gcicod and enc.gnufac=ord.rorfac
+where enc.gfancr='{0}' and enc.gcicod='{1}' and  enc.gflanu='{2}' {3} and enc.gnufac='{4}'</value>
+    <comment>Obtiene valores Opcionales sin calcular Subtotal y usando LGEN038D. icotip &lt;&gt; ''</comment>
+  </data>
+  <data name="SerieVehiculoNuevo" xml:space="preserve">
+    <value>select substr(ofi.vdofyn,length(trim(cfn.vsefyn))+1,length(trim(ofi.vdofyn))) as NOFACTURA, cfn.vsefyn as IDSERIE, ofi.vfdfyn||'/'||ofi.vfmfyn||'/'||ofi.vfafyn as FECHAFACTURA
+from vhl.vhlfyn ofi inner join vhl.vhlcfn cfn
+on cfn.vcoeim=ofi.vcoeim and cfn.vtifyn=ofi.vtifyn and cfn.vcogrm=ofi.vcogrm
+where ofi.vdofyn='{0}'
+union
+select 
+substr(aut.vnufav,length(trim(cdf.vsrfac))+1,length(trim(aut.vnufav))) as NOFACTURA, cdf.vsrfac as IDSERIE, aut.vfdfav||'/'||aut.vfmfav||'/'||aut.vfafav as FECHAFACTURA
+from vhl.vhlfc2 aut  join vhl.vhlcdf cdf
+on cdf.vcoeim=aut.vcocio and cdf.vcogrm=aut.vcogrm
+where aut.vtidoc&lt;&gt;'9'
+and aut.vnufav='{0}'
+union
+select substr(aut.vnufav,2,length(trim(aut.vnufav))) as NOFACTURA, 'U' as IDSERIE, aut.vfdfav||'/'||aut.vfmfav||'/'||aut.vfafav as FECHAEMISION
+from cdivus.vusfc2 aut 
+where aut.vtidoc&lt;&gt;'8'
+and aut.vnufav='{0}'</value>
+    <comment>Obtiene la serie de vehiculos nuevos</comment>
+  </data>
+  <data name="DetalleNCR" xml:space="preserve">
+    <value>select 
+det.gcamov as CANTIDAD
+, art.gcaumv as METRICA
+, art.gnmart as DESCRIPCION
+,round((det.gpvfa$/det.gcamov),2) as PRECIOUNITARIO
+,round(decimal(abs(det.gpvfa$),9,2),2) as VALOR
+, art.ggpcod || ' ' || art.gcoart as DETALLE1 ,round(decimal(abs(det.ipvmov),9,2),2) as VALOR2, round((det.ipvmov/det.gcamov),2) as PRECIOUNITARIO2
+from pgmdatos.ngen051CS det left join intgen.fgen016 art 
+on det.gcicod=art.gcicod and det.icotip=art.icotip and det.gcoart=art.gcoart
+where det.gcicod='{0}' {1} and det.gnufac='{2}'</value>
+    <comment>Detalles para notas de credito de Inventarios. Se quito icotip &lt;&gt; ''</comment>
+  </data>
+  <data name="DescuentoSubTotal_Servicios" xml:space="preserve">
+    <value>Select '0' as descuento, sum(abs(gpvfac)) as subtotal from PGMDATOS.NGEN051FYN where gcicod='{0}' {1} and gnufac='{2}'</value>
+    <comment>Obtiene el Descuento y Subtotal en Servicios / Antes cdigen.tgen051 se quito icotip &lt;&gt; ''</comment>
+  </data>
+  <data name="DetalleRep146" xml:space="preserve">
+    <value>select gcicod, gnufac, rnusec, rderub, rvarub  from cdirep.trep146 where gcicod = '{0}' and gnufac = '{1}' order by rnusec asc</value>
+    <comment>Obtiene el segundo Detalle para Servicios</comment>
+  </data>
+  <data name="DetalleServicios" xml:space="preserve">
+    <value>select 
+'1.00' as CANTIDAD
+, '' as METRICA
+, det.gnmart as DESCRIPCION
+,'0.00' as PRECIOUNITARIO
+,round(decimal(det.gpvfac,9,2),2) as VALOR
+,' ' as DETALLE1
+from PGMDATOS.NGEN051FYN det 
+where det.gcicod='{0}' {1} and det.gnufac='{2}'</value>
+    <comment>Obtiene el detalle de para Servicios / Antes cdigen.tgen051. se quito icotip &lt;&gt; ''</comment>
+  </data>
+  <data name="SeriesFgen038" xml:space="preserve">
+    <value>select a.SERIE as SERIE from (
+select distinct(trim(fsrcom)) AS SERIE from intfac.ffac007 where trim(fsrcom) &lt;&gt; '' 
+UNION
+SELECT distinct(trim(GSRNCR)) AS SERIE FROM INTGEN.FGEN022 where trim(gsrncr) &lt;&gt; '' 
+UNION 
+select distinct(trim(rsrncr)) AS SERIE from CDIFAC.TFAC050 where trim(rsrncr) &lt;&gt;'' 
+) a order by length(a.SERIE) desc</value>
+    <comment>Obtiene los diferentes tipos de Serie de la BD</comment>
+  </data>
+  <data name="DescuentoSubTotal_Servicios_NCR" xml:space="preserve">
+    <value>Select '0' as descuento, sum(abs(gpvfac)) as subtotal from PGMDATOS.NGEN051FYN where gcicod='{0}' {1} and gnufac='{2}'</value>
+    <comment>Obtiene el Descuento para Notas de Credito de Servicios / Antes cdigen.tgen051. se quito icotip &lt;&gt; ''</comment>
+  </data>
+  <data name="DetalleNCR_TS" xml:space="preserve">
+    <value>select 
+'1.00' as CANTIDAD
+, '' as METRICA
+, det.gnmart as DESCRIPCION
+,'0.00' as PRECIOUNITARIO
+,round(decimal(abs(det.gpvfac),9,2),2) as VALOR
+,' ' as DETALLE1
+from PGMDATOS.NGEN051FYN det 
+where det.gcicod='{0}' {1} and det.gnufac='{2}'</value>
+    <comment>Detalle para Notas de Credito de Servicio / Antes pgmdatos.ngen051. se quito icotip &lt;&gt;''</comment>
+  </data>
+  <data name="FacturaReferencia" xml:space="preserve">
+    <value>select rorfac, case rfsfac 
+	when '0' then rfdfac||'-'||rfmfac||'-19'||rfafac
+  	when '1' then rfdfac||'-'||rfmfac||'-20'||rfafac end from intrep.frep137 where rornum = '{0}' AND gfancr = {1} and rvtfac = {2}</value>
+    <comment>Obtiene los datos de Factura a la que hace referencia la Nota de Credito para Servicios.</comment>
+  </data>
+  <data name="LoteDocumentosFVH" xml:space="preserve">
+    <value>SELECT aut.vnufav AS NO_DOC, aut.vstfc1 as ESTADO, '' as PROCESADA, (cta.afddoc||'/'||cta.afmdoc||'/'||cta.afadoc) as fecha
+FROM vhl.vhlfc2 aut inner join intcta.fcta006 cta 
+on  aut.vcocio=cta.gcicod and aut.vnufav=cta.anudoc and aut.vtiopr=cta.atiopr
+where
+aut.vtidoc&lt;&gt;'9' and aut.vtiopr='1' and aut.vcocio='{0}'
+and (cta.afddoc between '{1}' and '{2}' ) 
+and (cta.afmdoc between '{3}' and '{4}' ) 
+and (cta.afadoc between '{5}' and '{6}' ) 
+group by aut.vnufav,cta.afddoc,cta.afmdoc,cta.afadoc,aut.vstfc1 order by no_doc</value>
+    <comment>Obtiene todos los documentos en Lote por rango de fechas para facturas de vehiculos nuevos.</comment>
+  </data>
+  <data name="DatosSATVOFN" xml:space="preserve">
+    <value>select fcisat as empresa, fessat as sucursal, fcocaj as caja from cdifac.tfac048 where vcocio='{0}' and vcomar='{1}' and vsrdoc='{2}'</value>
+    <comment>Obtiene los datos de SAT para vehiculos nuevos, vehiculos usados, oficina</comment>
+  </data>
+  <data name="CESS" xml:space="preserve">
+    <value>select 
+ cdf.vsrfac as SERIE, aut2.fcisat AS EMPRESA, aut2.fessat AS GSUCOD, aut2.fcocaj AS CAJA, aut.vcomar
+from vhl.vhlfc2 aut  join vhl.vhlcdf cdf
+on cdf.vcoeim=aut.vcocio and cdf.vcogrm=aut.vcogrm inner join cdifac.tfac048 aut2
+on aut2.vcocio=aut.vcocia and aut2.vcomar=aut.vcomar
+where aut.vtidoc&lt;&gt;'9'
+and aut.vnufav='{0}'</value>
+    <comment>Datos de Caja, Empresa, Serie y Sucursal Vehiculos nuevos</comment>
+  </data>
+  <data name="LoteDocumentosNVH" xml:space="preserve">
+    <value>select 
+ofi.vdofyn AS NO_DOC
+,ofi.vstfyn as ESTADO
+, '' as PROCESADA
+from vhl.vhlfyn ofi inner join vhl.vhlfc2 aut
+on aut.vcocio=ofi.vcoeim and aut.vnufav=ofi.vdoref
+where ofi.vcoeim='{0}' and ofi.vplfyn='VEH' and aut.vtidoc&lt;&gt;'9'
+and (ofi.vfdfyn between '{1}' and '{2}')
+and (ofi.vfmfyn between '{3}' and '{4}')
+and (ofi.vfafyn between '{5}' and '{6}') order by no_doc asc</value>
+    <comment>Obtiene lote notas de credito vehiculos nuevos</comment>
+  </data>
+  <data name="LoteDocumentosNVU" xml:space="preserve">
+    <value>select 
+ofi.vdofyn AS NO_DOC
+,ofi.vstfyn as ESTADO
+, '' as PROCESADA
+from vhl.vhlfyn ofi inner join  cdivus.vusfc2 aut
+on aut.vnufav=ofi.vdofyn
+where ofi.vcoeim='{0}' and ofi.vplfyn='VEH' and aut.vtidoc&lt;&gt;'8' 
+and (ofi.vfdfyn between '{1}' and '{2}')
+and (ofi.vfmfyn between '{3}' and '{4}')
+and (ofi.vfafyn between '{5}' and '{6}') order by no_doc asc</value>
+    <comment>Obtiene lote para notas de credito vehiculos usados</comment>
+  </data>
+  <data name="LoteDocumentosFVU" xml:space="preserve">
+    <value>SELECT cta.anudoc AS NO_DOC, aut.vstfc1 as ESTADO, '' as PROCESADA, (cta.afddoc||'/'||cta.afmdoc||'/'||cta.afadoc) as fecha
+FROM intcta.fcta006 cta inner join cdivus.vusfc2 aut 
+on aut.vnufav=cta.anudoc
+where
+aut.vtidoc&lt;&gt;'8' and aut.vtiopr='1' and trim(aut.vcocia)='AM' and v@ste2 in ({6})  and substr(trim(aut.vnufav),0,2)='{7}' 
+and (cta.afddoc between '{0}' and '{1}' ) 
+and (cta.afmdoc between '{2}' and '{3}' ) 
+and (cta.afadoc between '{4}' and '{5}' ) 
+group by cta.anudoc,cta.afddoc,cta.afmdoc,cta.afadoc,aut.vstfc1 order by no_doc</value>
+    <comment>Obtiene lote de documentos de facturas para vehiculos usados</comment>
+  </data>
+  <data name="CuentasCargoAbono" xml:space="preserve">
+    <value>select gcicod,anudoc,atiopr,gcocla,gsucod,gmacod,gigcod,avltot from libusr.cta006l9 where anudoc='{0}' and atiopr='{1}'</value>
+    <comment>Obtiene las cuentas para cargos y abonos.</comment>
+  </data>
+  <data name="LoteDocumentosOficina" xml:space="preserve">
+    <value>select 
+ofi.vdofyn AS NO_DOC
+,ofi.vstfyn as ESTADO
+, '' as PROCESADA
+from vhl.vhlfyn ofi 
+where ofi.vcoeim='{0}' and ofi.vplfyn&lt;&gt;'VEH' and ofi.vtifyn='{1}'
+and (ofi.vfdfyn between '{2}' and '{3}')
+and (ofi.vfmfyn between '{4}' and '{5}')
+and (ofi.vfafyn between '{6}' and '{7}') order by no_doc asc</value>
+    <comment>Obtiene lotes de facturas y notas de crédito de oficina</comment>
+  </data>
+  <data name="DETALLE_TFAC052" xml:space="preserve">
+    <value>select 
+gcamov as CANTIDAD
+, '' as METRICA
+, fdeart as DESCRIPCION
+, fpruni as PRECIOUNITARIO
+,decimal(gpvfac,9,2) as VALOR
+,ggpcod || ' ' || gcoart as DETALLE1
+from cdifac.tfac052 
+where gcicod='{0}' and trim(gnufac)='{1}'</value>
+    <comment>Obtiene el detalle de las facturas y notas de credito.</comment>
+  </data>
+  <data name="ENCABEZADO_TFAC051" xml:space="preserve">
+    <value>select 
+trim(gnufac) as gnufac,
+icotip,
+gcocaj as CAJA,
+gclnom as NOMBRECONTRIBUYENTE,
+(gcldir || gclcol || gcledi) as DIRECCIONCONTRIBUYENTE,
+ case gfsfac 
+	when '0' then gfdfac||'-'||gfmfac||'-19'||gfafac||' '||substring(trim(RIGHT('000000'||gfahor,6)),1,2)||':'||substring(trim(RIGHT('000000'||gfahor,6)),3,2)||':'||substring(trim(RIGHT('000000'||gfahor,6)),5,2)
+  	when '1' then gfdfac||'-'||gfmfac||'-20'||gfafac||' '||substring(trim(RIGHT('000000'||gfahor,6)),1,2)||':'||substring(trim(RIGHT('000000'||gfahor,6)),3,2)||':'||substring(trim(RIGHT('000000'||gfahor,6)),5,2)
+  end as FECHAEMISION,
+  givfac as IVA,
+  fsbfai as VALORNETO,
+  gvtfac as TOTAL,
+  fdcfai as DESCUENTO,
+  gclnit as NITCONTRIBUYENTE,
+  ocjnom as USUARIO, 
+  '' as gflexn,
+  fvaexe as EXENTO,
+  '' as ocobct,
+  ffancr as NOFACTURA,
+  ffdfnc||'-'||ffmfnc||'-'||ffafnc as FECHAFACTURA,
+  gtifac,
+  gcicod,
+  gfrimp,
+  gsucod,
+  gflanu
+  from cdifac.tfac051
+  where gfancr='{0}' and gcicod='{1}' and gflanu='{2}' and trim(gnufac)='{3}'</value>
+    <comment>Obtiene encabezado para las facturas y notas de credito</comment>
+  </data>
+  <data name="OPCIONALES_TFAC051" xml:space="preserve">
+    <value>select 
+ gclcod as OPCIONAL1
+, rornum as OPCIONAL2
+, trim(gtipag)||'  '|| case trim(fcadia) when '0' then '' else trim(fcadia) end as OPCIONAL3
+, ocjnom as OPCIONAL4
+, gcoven as OPCIONAL5
+, ltrim(rtrim(favi00))||' '||ltrim(rtrim(favi01))||' '||ltrim(rtrim(favi02))||' '||ltrim(rtrim(favi03))||' '||ltrim(rtrim(favi04))||' '||ltrim(rtrim(fobs01))||' '||ltrim(rtrim(fcom01))||' '||ltrim(rtrim(fcom02)) as OPCIONAL6
+, trim(gnufac) as OPCIONAL7
+, ftxord as OPCIONAL8
+, fsbfai as OPCIONAL9
+from cdifac.tfac051
+where gfancr='{0}' and gcicod='{1}' and  gflanu='{2}' and trim(gnufac)='{3}'</value>
+    <comment>Obtiene los valores opcionales para las facturas y notas de credito</comment>
+  </data>
+  <data name="EstadoDocumento" xml:space="preserve">
+    <value>select 
+  trim(gflanu) as estado
+  from cdifac.tfac051 nolock
+  where gfancr='{0}' and gcicod='{1}' and trim(gnufac)='{2}'
+union
+select 
+	trim(vstfc1) as estado
+	from vhl.vhlfc2 nolock
+	where vtidoc&lt;&gt;'9' and vtiopr='1' and vcocio='{1}' and trim(vnufav)='{2}'
+union
+select 
+	ofi.vstfyn as estado
+	from vhl.vhlfyn ofi inner join vhl.vhlfc2 aut
+	on aut.vcocio=ofi.vcoeim and aut.vnufav=ofi.vdoref
+	where ofi.vcoeim='{1}' and ofi.vplfyn='VEH' and aut.vtidoc&lt;&gt;'9' and trim(vdofyn)='{2}'
+union
+select 
+	trim(vstfc1) as estado
+	from cdivus.vusfc2 nolock
+	where vtidoc&lt;&gt;'8' and vtiopr='1' and trim(vcocia)='AM' and substr(trim(vnufav),0,2) = 'U' and trim(vnufav)='{2}'
+union
+select 
+	ofi.vstfyn as estado	
+	from vhl.vhlfyn ofi inner join  cdivus.vusfc2 aut
+	on aut.vnufav=ofi.vdofyn
+	where ofi.vcoeim='{1}' and ofi.vplfyn='VEH' and aut.vtidoc&lt;&gt;'8' and trim(vdofyn)='{2}'
+union
+select
+	trim(vstfyn) as estado
+	from vhl.vhlfyn nolock
+	where vcoeim='{1}' and vplfyn&lt;&gt;'VEH' and vtifyn= case ('{0}') when '1' then 'FAC' when '2' then 'NCR' end and trim(vdofyn)='{2}'</value>
+    <comment>Obtiene el Estado de un Documento para Ingreso Individual</comment>
+  </data>
+  <data name="SerieFAC" xml:space="preserve">
+    <value>select * from SSO_GFC_FAC_SERIE where IdEmpresa={0} and idserie='{1}'</value>
+    <comment>Devuelve serie de Notas</comment>
+  </data>
+  <data name="SerieNCR" xml:space="preserve">
+    <value>select * from SSO_GFC_NC_SERIE where IdEmpresa={0} and idserie='{1}'</value>
+    <comment>Devuelve serie de Facturas</comment>
+  </data>
+</root>

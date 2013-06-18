@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://aape01/wsiflocal/SSO_WSEFACTURA.asmx?wsdl" filename="SSO_WSEFACTURA.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.DiscoveryDocumentReference" url="http://aape01/wsiflocal/SSO_WSEFACTURA.asmx?disco" filename="SSO_WSEFACTURA.disco" />
+  </Results>
+</DiscoveryClientResultsFile>
